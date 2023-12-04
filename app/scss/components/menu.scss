@@ -1,0 +1,30 @@
+@use '../util' as *;
+
+.menu {
+    border: none;
+
+    &__list {
+        text-decoration: none;
+    }
+
+    li {
+        display: inline;
+        padding: rem(24);
+
+        // @include breakpoint(medium){
+        //     display: block;
+        // }
+    }
+
+    li a {
+        font-size: rem(14);
+        font-weight: 300;
+        color: var(--text-color);
+        text-align: center;
+
+    }
+
+    li a:hover {
+        color: var(--text-color2);
+    }
+}
