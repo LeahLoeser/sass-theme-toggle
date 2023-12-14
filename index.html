@@ -2,38 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sass Theme TEST</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Leah Loeser | Self As System</title>
-
-  <!-- Google Fonts -->
+  <!-- google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet"/>
 
-  <link rel="stylesheet" href="/dist/style.css" />
-  <script defer src="/dist/script.js"></script>
+  <link rel="stylesheet" href="../dist/style.css" />
+  <script defer src="../dist/script.js"></script>
 
-  <!-- -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
 </head>
 <body>
   <header class="header container">
     <div class="header__title">
       <h1><a href=index.html>Leah Loeser</a></h1>
-      <!-- <span class="header__subtitle">Designer & Developer</span> -->
+      <span class="header__subtitle">Designer & Developer</span>
     </div>
 
     <!-- navigation menu -->
     <fieldset class="header__menu menu">
     <nav>
         <ul class="menu__list">
-          <li><a href=/pages/index.html>HOME</a></li>
+          <li><a href=../index.html>HOME</a></li>
           <li><a href=/pages/work.html>WORK</a></li>
           <li><a href=/pages/about.html>ABOUT</a></li>
           <li><a href=/pages/contact.html>CONTACT</a></li>
@@ -41,13 +39,9 @@
       </nav>
   </fieldset>
 
-
     <!-- Accessible toggle switch: https://codepen.io/SaraSoueidan/pen/jpBbrq?editors=1100 -->
     <!-- Multiposition toggle: https://codepen.io/renddrew/pen/bRomab -->
-    <fieldset class="header__toggle toggle" 
-      aria-label="theme toggle" 
-      role="radiogroup"
-    >
+    <fieldset class="header__toggle toggle" aria-label="theme toggle" role="radiogroup">
     <div class="toggle__wrapper">
       <input type="radio" name="theme" id="dark">
       <input type="radio" name="theme" id="light">
@@ -63,8 +57,5 @@
 (home)
   </main> 
 
-  <div class="attribution"> 
-    Coded by <a href="#">Leah Loeser</a>.
-  </div>
 </body>
 </html>

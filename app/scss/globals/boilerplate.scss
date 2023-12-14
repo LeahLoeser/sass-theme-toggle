@@ -16,3 +16,8 @@ html {
         background: var(--background);
         color: var(--text-color)
     }
+
+    main {
+        display: flex;
+        justify-content: center;
+    }
